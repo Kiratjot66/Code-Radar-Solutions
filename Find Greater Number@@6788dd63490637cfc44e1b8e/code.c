@@ -2,7 +2,7 @@
 int main() {
     int a,b;
     scanf("%d %d",&a,&b);
-    int c;
+    int c=0;
     if(a>b){
         c=a;
     }
