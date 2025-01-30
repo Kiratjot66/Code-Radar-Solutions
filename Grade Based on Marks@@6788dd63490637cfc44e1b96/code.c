@@ -11,8 +11,8 @@ int main() {
     }
     else if(a>=60 && a<70){
         c='D';}
-    else
-    {c='F'}
+    else {c='F'}
+    printf("%c",c)
     
     return 0;
 }
