@@ -3,7 +3,7 @@
 int main() {
     char a;
     scanf("%c",&a);
-    int d=c
+    int d=a
     if(97<=d<=122 ){
         printf("Uppercase");
     }
