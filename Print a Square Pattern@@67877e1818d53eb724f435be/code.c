@@ -12,10 +12,10 @@ int main() {
             printf(" ");
         }
         printf("* ");
+    }
     printf("\n");
     for(f=1;f<=N;f++){
         printf("* ");
-    }
     }
     return 0;
 }
