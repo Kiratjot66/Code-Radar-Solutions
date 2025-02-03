@@ -15,7 +15,7 @@ int main() {
         for(l=1;l<=N-k;l++){
             printf(" ");
         }
-        for(m=1;m<=2k-1;m++){
+        for(m=1;m<=2*k-1;m++){
             printf("*");
         }
         printf("\n");
