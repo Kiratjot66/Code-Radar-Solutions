@@ -11,7 +11,6 @@ int main() {
         }
         printf("\n");
     }
-    printf("\n");
     for(k=N-1;k>=1;k--){
         for(l=1;l<=N-k;l++){
             printf(" ");
