@@ -1,8 +1,14 @@
 #include <stdio.h>
 int main() {
-    int i,j,N,m=1,l=0,c,d;
+    int i,j,N,m,l,c,d;
     scanf("%d",&N);
     for(i=1;i<=N;i++){
+        if(i%2!=0 ||i==1){
+            m=1,l=0;
+        }
+        else{
+            m=0,l=1;
+        }
         for(j=1;j<=i;j++){
             printf("%d ",m);
             c=l;
@@ -10,7 +16,6 @@ int main() {
             m=c;
         }
         printf("\n");
-        d=l,l=m,m=d;
     }
     return 0;
 }
