@@ -8,7 +8,7 @@ int main() {
     }
     int k;
     scanf("%d",&k);
-    for(j=N-k;j>N;j--){
+    for(j=N-k;j<N;j++){
         printf("%d",arr[j]);
         prinntf("\n");
     }
