@@ -3,12 +3,12 @@ int main() {
     int N;
     scanf("%d",&N);
     int arr,i,l;
-    for(i=1;i<N;i++){
+    for(i=1;i<=N;i++){
         scanf("%d",arr[i]);
     }
     int k;
     scanf("%d",&k);
-    for(j=N-k;j<N;j++){
+    for(j=N-k;j<=N;j++){
         printf("%d",arr[j]);
         prinntf("\n");
     }
