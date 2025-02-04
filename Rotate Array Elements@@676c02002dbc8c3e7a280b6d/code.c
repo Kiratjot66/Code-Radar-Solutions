@@ -10,7 +10,7 @@ int main() {
     scanf("%d",&k);
     for(j=N-k;j<=N;j++){
         printf("%d",arr[j]);
-        prinntf("\n");
+        printf("\n");
     }
     for(l=0;l<k;l++){
         printf("%d",arr[l]);
