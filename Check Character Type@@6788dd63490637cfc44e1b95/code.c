@@ -6,11 +6,10 @@ int main() {
         printf("Vowel");
         break;
     }
-    int a= (int)ch;
-    else if((ch<=65 && ch >=90 )||(ch<=97 &&ch>=122)){
+    else if((ch>='a' && ch <='z' )||(ch>='A' &&ch<'Z')){
         printf("Consonant");
     }
-    else if(isdigit(a)){
+    else if(isdigit(ch)){
         printf("Digit");
     }
     else{
