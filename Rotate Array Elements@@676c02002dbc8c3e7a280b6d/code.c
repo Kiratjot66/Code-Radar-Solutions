@@ -8,11 +8,11 @@ int main() {
     }
     int k;
     scanf("%d",&k);
-    for(j=N-k;j<=N;j++){
+    for(j=N-k;j<N;j++){
         printf("%d",arr[j]);
         printf("\n");
     }
-    for(l=0;l<k;l++){
+    for(l=0;l<=k;l++){
         printf("%d",arr[l]);
         printf("\n");
     }
