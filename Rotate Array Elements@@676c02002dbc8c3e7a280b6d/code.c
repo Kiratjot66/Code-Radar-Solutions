@@ -4,16 +4,15 @@ int main() {
     int arr[];
     int k;
     scanf("%d",&N);
-    int i,l,j;
-    for(i=0;i<N;i++){
+    for(int i=0;i<N;i++){
         scanf("%d ",&arr[i]);
     }
     scanf("%d",&k);
-    for(j=N-k;j<N;j++){
+    for(int j=N-k;j<N;j++){
         printf("%d ",arr[j]);
         printf("\n");
     }
-    for(l=0;l<=k;l++){
+    for(int l=0;l<=k;l++){
         printf("%d ",arr[l]);
         printf("\n");
     }
