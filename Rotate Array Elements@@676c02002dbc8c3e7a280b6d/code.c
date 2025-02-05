@@ -12,7 +12,7 @@ int main() {
         printf("%d ",arr[j]);
         printf("\n");
     }
-    for(int l=0;l<=k;l++){
+    for(int l=0;l<k;l++){
         printf("%d ",arr[l]);
         printf("\n");
     }
