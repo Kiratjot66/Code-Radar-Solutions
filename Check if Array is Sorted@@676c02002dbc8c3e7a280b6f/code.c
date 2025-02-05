@@ -2,17 +2,17 @@
 int main() {
     int N;
     scanf("%d",&N);
-    int arr[N],a=0;
+    int arr[N],g=0;
     for(int i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
     int a=arr[0];
     for(int k;k<N;k++){
         if(arr[0]>arr[k]){
-           a++;
+           g++;
         }
     }
-    if(a>0){
+    if(g>0){
         printf("Not Sorted");
     }
     else{
