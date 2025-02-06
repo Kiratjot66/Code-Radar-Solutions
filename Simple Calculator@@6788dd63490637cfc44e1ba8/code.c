@@ -7,19 +7,19 @@ int main() {
     switch(a){
         case '+':
          r=i+j;
-         printf("%d",&r);
+         printf("%d",r);
          break;
         case '-':
          r=i-j;
-         printf("%d",&r);
+         printf("%d",r);
          break;
         case '*':
          r=i*j;
-         printf("%d",&r);
+         printf("%d",r);
          break;
         case '/':
          r=i/j;
-         printf("%d",&r);
+         printf("%d",r);
          break;
         default:
          printf("error");
