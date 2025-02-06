@@ -7,7 +7,7 @@ int main() {
         scanf("%d",&arr[i]);
     }
     int a=arr[0];
-    for(int j=1;j<N;j++){
+    for(int qj=1;j<N;j++){
         if(a<arr[j]){
             a=arr[j];
         }
@@ -20,4 +20,4 @@ int main() {
     }
     printf("%d",b);
     return 0;
-}tfgfv
+}
