@@ -12,15 +12,21 @@ int main() {
             a=arr[j];
         }
     }
+    int d=0;
     int b=arr[0];
     for(int k=0;k<N;k++){
-        if(b<arr[k] && arr[k]!=a &&b!=arr[k]){
+        if(b<arr[k] && arr[k]!=a){
             b=arr[k];
         }
-        else{
-            printf("-1");
+        if(b==arr[k]){
+            d++;
         }
     }
-    printf("%d",b);
+    if(d==0){
+        printf("%d",b);
+    }
+    else{
+        printf("-1");
+    }
     return 0;
 }
