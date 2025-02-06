@@ -14,7 +14,7 @@ int main() {
     }
     int b=-1;
     for(int k=0;k<N;k++){
-        if(a>arr[k] && arr[k]!=a){
+        if(a>arr[k] &&arr[k]>b){
             b=arr[k];
         }
     }
