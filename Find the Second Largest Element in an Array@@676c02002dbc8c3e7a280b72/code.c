@@ -9,12 +9,12 @@ int main() {
     int f=arr[0];
     int s=-1;
     for(int j=0;j<N;j++){
-        if(arr[i]>f){
+        if(arr[j]>f){
           s=f;
           f=arr[j];
         }
-        else if(arr[i]>s && arr[i]!=f){
-          s=arr[i];
+        else if(arr[j]>s && arr[j]!=f){
+          s=arr[j];
         }
     }
     printf("s");
