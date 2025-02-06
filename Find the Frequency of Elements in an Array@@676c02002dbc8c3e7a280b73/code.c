@@ -14,7 +14,7 @@ int main() {
             }
         }
     }
-        printf("%d %d",arr[j],a);
-        printf("\n");
+    printf("%d %d",arr[j],a);
+    printf("\n");
     return 0;
 }
