@@ -17,6 +17,6 @@ int main() {
           s=arr[j];
         }
     }
-    printf("s");
+    printf("%d",s);
     return 0;
 }
