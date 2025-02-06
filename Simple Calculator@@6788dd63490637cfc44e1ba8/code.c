@@ -18,9 +18,11 @@ int main() {
          printf("%d",r);
          break;
         case '/':
-         r=i/j;
-         printf("%d",r);
-         break;
+         if(j!=0){
+          r=i/j;
+          printf("%d",r);
+          break;
+         }
         default:
          printf("error");
          break;
