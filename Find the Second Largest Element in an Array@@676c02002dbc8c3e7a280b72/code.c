@@ -6,18 +6,17 @@ int main() {
     for(int i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
-    int a=arr[0];
-    for(int qj=1;j<N;j++){
-        if(a<arr[j]){
-            a=arr[j];
+    int f=arr[0];
+    int s=-1;
+    for(int j=0;j<N;j++){
+        if(arr[i]>f){
+          s=f;
+          f=arr[j];
+        }
+        else if(arr[i]>s && arr[i]!=f){
+          s=arr[i];
         }
     }
-    int b=-1;
-    for(int k=0;k<N;k++){
-        if(a>arr[k] &&arr[k]>b){
-            b=arr[k];
-        }
-    }
-    printf("%d",b);
+    printf("s");
     return 0;
 }
