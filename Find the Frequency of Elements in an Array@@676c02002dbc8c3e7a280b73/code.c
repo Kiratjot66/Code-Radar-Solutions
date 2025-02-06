@@ -12,7 +12,7 @@ int main() {
     }
     for(int j=0;j<N;j++){
         if(fr[arr[j]]!=0){
-            printf("%d %d",arr[j],fr[arr[j]]);
+            printf("%d %d\n",arr[j],fr[arr[j]]);
             fr[arr[j]]=0;
         }
     }
