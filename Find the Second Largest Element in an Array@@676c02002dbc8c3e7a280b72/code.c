@@ -14,8 +14,11 @@ int main() {
     }
     int b=arr[0];
     for(int k=0;k<N;k++){
-        if(b<arr[k] && arr[k]!=a){
+        if(b<arr[k] && arr[k]!=a &&b!=arr[k]){
             b=arr[k];
+        }
+        else{
+            printf("-1");
         }
     }
     printf("%d",b);
