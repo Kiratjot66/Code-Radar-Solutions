@@ -15,7 +15,7 @@ int main() {
     int d=0;
     int b=arr[0];
     for(int k=0;k<N;k++){
-        if(b<arr[k] && arr[k]!=a){
+        if(b<arr[k] && arr[k]!=a &&b!=arr[k]){
             b=arr[k];
         }
         if(b==arr[k]){
