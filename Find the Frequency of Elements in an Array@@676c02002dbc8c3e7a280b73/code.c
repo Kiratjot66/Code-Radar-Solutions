@@ -13,7 +13,7 @@ int main() {
     for(int j=0;j<N;j++){
         if(fr[arr[j]]!=0){
             printf("%d %d",arr[j],fr[arr[j]]);
-            freq[arr[j]]=0;
+            fr[arr[j]]=0;
         }
     }
     return 0;
