@@ -17,9 +17,6 @@ int main() {
         if(b<arr[k] && arr[k]!=a){
             b=arr[k];
         }
-        else{
-            printf("-1");
-        }
     }
     printf("%d",b);
     return 0;
