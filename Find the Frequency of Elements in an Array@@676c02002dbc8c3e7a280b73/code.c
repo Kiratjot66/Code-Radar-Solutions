@@ -13,8 +13,8 @@ int main() {
                 a=a+1;
             }
         }
+    }
         printf("%d %d",arr[j],a);
         printf("\n");
-    }
     return 0;
 }
