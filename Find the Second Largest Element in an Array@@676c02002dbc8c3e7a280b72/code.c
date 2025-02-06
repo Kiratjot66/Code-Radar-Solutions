@@ -17,6 +17,11 @@ int main() {
           s=arr[j];
         }
     }
-    printf("%d",s);
-    return 0;
+    if(s==-1){
+        printf("-1");
+    }
+    else{
+      printf("%d",s);
+      return 0;
+    }
 }
