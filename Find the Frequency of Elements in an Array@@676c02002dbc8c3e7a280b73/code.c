@@ -12,9 +12,9 @@ int main() {
             if(arr[j]==arr[k]){
                 a=a+1;
             }
+        }
         printf("%d %d",arr[j],a);
         printf("\n");
-        }
     }
     return 0;
 }
