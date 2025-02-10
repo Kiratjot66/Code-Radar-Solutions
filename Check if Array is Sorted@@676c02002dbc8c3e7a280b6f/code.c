@@ -11,6 +11,9 @@ int main() {
         if(arr[0]>arr[k]){
            g++;
         }
+        else{
+            a=arr[k];
+        }
     }
     if(g>0){
         printf("Not Sorted");
