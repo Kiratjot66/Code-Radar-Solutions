@@ -3,7 +3,7 @@
 int main() {
     char str[1000],st[1000];
     scanf("%s",&str);
-    scanf("%d",&st);
+    scanf("%s",&st);
     int k=strlen(st);
     strncat(str,st,k);
     puts(str);
