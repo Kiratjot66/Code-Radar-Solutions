@@ -2,7 +2,7 @@
 #include <string.h>
 int main() {
     char str[1000],char st="";
-    fgets(str);
+    fgets(str,1000,stdin);
     l=len(str);
     for(int i=l-1;i>=0;i--){
        strncat(st,str[i],1);
