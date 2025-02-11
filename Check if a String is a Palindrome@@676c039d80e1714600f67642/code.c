@@ -5,7 +5,7 @@ int main() {
     fgets(str,1000,stdin);
     int l=strlen(str)-1;
     for(int i=l-1;i>=0;i--){
-        strncat(st,str[I],1);
+        strncat(st,str[i],1);
     }
     int r=strcmp(st,str);
     if(r==0){
