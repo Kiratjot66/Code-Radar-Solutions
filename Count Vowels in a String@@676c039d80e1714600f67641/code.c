@@ -6,7 +6,7 @@ int main() {
     int a=0;
     int l=strlen(str);
     for(int i=0;i<=l-1;i++){
-        if(str[i]=='a' ||str[i]=='e'||str[i]=='i'||str[i]=='o' ||str[i]=='u' ||str[i]=='A'||str[i]=='E'||str[i]=='I'||str[i]=='O'||str=='U'){
+        if(str[i]=='a' ||str[i]=='e'||str[i]=='i'||str[i]=='o' ||str[i]=='u' ||str[i]=='A'||str[i]=='E'||str[i]=='I'||str[i]=='O'||str[i]=='U'){
             a++;
         }
     }
