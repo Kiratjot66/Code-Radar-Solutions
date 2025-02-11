@@ -3,7 +3,7 @@
 int main() {
     char str[1000],char st="";
     fgets(str,1000,stdin);
-    l=len(str);
+    l=len(str)-1;
     for(int i=l-1;i>=0;i--){
        strncat(st,str[i],1);
     }
