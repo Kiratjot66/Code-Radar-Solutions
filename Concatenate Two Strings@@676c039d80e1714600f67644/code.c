@@ -4,7 +4,7 @@ int main() {
     char str[1000],st[1000];
     fgets(str,1000,stdin);
     fgets(st,1000,stdin);
-    strncat(str,st,1000);
+    strncat(str,st,3);
     puts(str);
     return 0;
 }
