@@ -10,9 +10,9 @@ int main() {
     int r=strcmp(st,str);
     if(r==0){
         printf("Yes");
+    }
     else{
         printf("NO");
-    }
     }
     return 0;
 }
