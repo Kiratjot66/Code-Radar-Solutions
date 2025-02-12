@@ -5,7 +5,7 @@ int main(){
     char s,k;
     fgets(str,1000,stdin);
     scanf("%c",&s);
-    scanf(" %c",&k);
+    scanf("%c",&k);
     int l=strlen(str);
     for(int i=0;i<l;i++){
         if(str[i]==s){
