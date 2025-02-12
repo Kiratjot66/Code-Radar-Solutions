@@ -7,7 +7,7 @@ int main(){
     int a=0,b=0;
     int l=strlen(str);
     for(int i=0;i<l;i++){
-        if(str[i]=='0' || str[i]=='1' ||str==" "){
+        if(str[i]=='0' || str[i]=='1'){
             a++;
         }
         else{
@@ -15,7 +15,7 @@ int main(){
         }
 
     }
-    if(a>0 &&b==0){
+    if((a>0 &&b==0)||str==" "){
         printf("Yes");
     }
     else{
