@@ -15,8 +15,10 @@ void sort(char *str){
 int main(){
     char str1[1000];
     fgets(str1,1000,stdin);
+    str[strcspn(str1, "\n")] = '\0';
     char str2[1000];
     fgets(str2,1000,stdin);
+    str[strcspn(str2, "\n")] = '\0';
     int d=strlen(str1);
     int e=strlen(str2);
     sort(str1);
