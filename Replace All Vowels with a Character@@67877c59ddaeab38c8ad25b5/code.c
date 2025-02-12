@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 int main(){
-    char str[1000],st="";
+    char str[1000],st[1000]="";
     fgets(str,1000,stdin);
     str[strcspn(str, "\n")] = '\0';
     char s;
