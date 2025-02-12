@@ -14,7 +14,7 @@ int main(){
             strncat(st,str[i],1);
         }
     }
-    puts(st)
+    puts(st);
     return 0;
 
 }
