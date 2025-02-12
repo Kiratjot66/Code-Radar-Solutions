@@ -19,19 +19,15 @@ int main(){
     fgets(str2,1000,stdin);
     int d=strlen(str1);
     int e=strlen(str2);
-    if(d!=e){
-        printf("No");
+    sort(str1);
+    sort(str2);
+    int a =strcmp(str1,str2);
+    if(a==0){
+        printf("Yes");
     }
     else{
-       sort(str1);
-       sort(str2);
-       int a =strcmp(str1,str2);
-       if(a==0){
-          printf("Yes");
-        }
-       else{
-          printf("No");
-        }
+        printf("No");
     }
+    
     
 }
