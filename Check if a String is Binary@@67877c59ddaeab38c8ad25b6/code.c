@@ -15,7 +15,7 @@ int main(){
         }
 
     }
-    if((a>0 &&b==0)||strcmp(str," ")){
+    if((a>0 &&b==0)||strcmp(str," "==0)){
         printf("Yes");
     }
     else{
