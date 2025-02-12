@@ -13,7 +13,7 @@ int main(){
             a++;
         }
         
-    printf("%d",a)
+    printf("%d",a);
     return 0;
 
 }
