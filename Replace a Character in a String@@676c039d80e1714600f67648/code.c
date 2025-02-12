@@ -8,10 +8,10 @@ int main(){
     int l=strlen(str);
     for(int i=0;i<l;i++){
         if(str[i]==s){
-            strncat(st,k,1);
+            strncat(st,&k,1);
         }
         else{
-            strncat(st,str[i],1);
+            strncat(st,&str[i],1);
         }
     }
     puts(st);
