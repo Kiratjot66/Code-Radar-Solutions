@@ -18,7 +18,7 @@ int main(){
     if(b>0){
         printf("No");
     }
-    if(b=0)
+    if(b=0 && a>0)
     {
         printf("Yes");
     }
