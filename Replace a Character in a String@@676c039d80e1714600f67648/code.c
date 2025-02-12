@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 int main(){
-    char str[1000],s[1],k[1],st[1000]="";
+    char str[1000],st[1000]="";
+    char s,k;
     fgets(str,1000,stdin);
-    fgets(s,1,stdin);
-    fgets(k,1,stdin);
+    scanf("%c",&s);
+    scanf(" %c",&k);
     int l=strlen(str);
     for(int i=0;i<l;i++){
         if(str[i]==s){
