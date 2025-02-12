@@ -4,7 +4,7 @@
 int main(){
     char str[1000],st[1000]="";
     fgets(str,1000,stdin);
-    st= tolower(str);
+    st= toUpperCase(str);
     puts(st);
     return 0;
 
