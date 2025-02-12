@@ -3,7 +3,6 @@
 int main(){
     char str[1000];
     char s;
-    scanf("%c",&s);
     int a=0;
     fgets(str,1000,stdin);
     str[strcspn(str, "\n")] = '\0';
