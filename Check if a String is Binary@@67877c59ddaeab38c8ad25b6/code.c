@@ -10,17 +10,13 @@ int main(){
         if(str[i]=='0' || str[i]=='1'){
             a++;
         }
-        else{
-            b++;
-        }
 
     }
-    if(b>0){
-        printf("No");
-    }
-    if(b=0 && a>0)
-    {
+    if(a>0){
         printf("Yes");
+    }
+    else{
+        printf("No");
     }
     return 0;
 }
