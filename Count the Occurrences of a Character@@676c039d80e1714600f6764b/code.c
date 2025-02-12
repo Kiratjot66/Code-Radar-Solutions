@@ -13,9 +13,8 @@ int main(){
         if(str[i]==s){
             a++;
         }
-        
+    }   
     printf("%d",a);
     return 0;
-    }
 
 }
