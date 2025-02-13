@@ -15,8 +15,11 @@ int main(){
                 break;
             }
             else{
-                printf("Not Prime");
+               d++;
             }
+        }
+        if(d>0){
+            printf("Prime");
         }
     }
 }
