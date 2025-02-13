@@ -11,7 +11,7 @@ int main(){
     else{
         for(int i=2;i<a;i++){
             if(a%i==0){
-                r++
+                r++;
             }
             else{
                d++;
@@ -19,6 +19,9 @@ int main(){
         }
         if(d>0 && r==0){
             printf("Prime");
+        }
+        if(r>0){
+            printf("Not Prime");
         }
     }
 }
