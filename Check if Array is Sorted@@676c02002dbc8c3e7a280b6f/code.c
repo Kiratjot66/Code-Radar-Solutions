@@ -10,6 +10,7 @@ int main() {
     for(int k=1;k<N;k++){
         if(arr[0]>arr[k]){
            g++;
+           a++;
         }
         else{
             a=arr[k];
