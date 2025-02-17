@@ -2,11 +2,12 @@
 int main(){
     int num;
     scanf("%d",&num);
-    int lsb = (num>>3) & 1; 
-    if(lsb==1){
+    int msb = (num>>3) & 1; 
+    if(msb==1){
         printf("Set");
     }
     else{
         printf("Not Set");
     }
+    return 0;
 }
