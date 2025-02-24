@@ -8,7 +8,7 @@ int main(){
     for(int i=0;i<l;i++){
         char ch=toupper(str[i]);
         char temp[2] = {ch, '\0'};
-        strcat(st,temp,1);
+        strcat(st,temp);
     }
     puts(st);
     return 0;
