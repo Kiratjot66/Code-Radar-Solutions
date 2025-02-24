@@ -7,7 +7,7 @@ int main(){
     int l=strlen(str);
     for(int i=0;i<l;i++){
         char ch=toupper(str[i]);
-        st=st+ch;
+        strcat(st,ch,1);
     }
     puts(st);
     return 0;
