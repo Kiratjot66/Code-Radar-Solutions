@@ -6,9 +6,10 @@ int main(){
     fgets(str, sizeof(str), stdin); 
     str[strcspn(str, "\n")] = '\0';
     int l = strlen(str);
-    int k=0,f=0,m=0;
+    int k=0,f=0,m=0,g=0;
     for(int i=0;i<l;i++){
         if(isspace(str[i])){
+            g++;
             continue;
         }
         else{
@@ -30,7 +31,7 @@ int main(){
         }
         
     }
-    if(strlen(str)==0){
+    if(strlen(str)==0 ||g==l){
         printf("0");
         return 0;
     }
