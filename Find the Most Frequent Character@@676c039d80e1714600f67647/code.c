@@ -14,7 +14,7 @@ int main() {
         }
     }
     int a=freq[0];
-    int d;
+    int d=0;
     for (int j = 1; j < 26; j++) {
         if (a<freq[j]) { 
             a=freq[j];
