@@ -7,6 +7,10 @@ int main(){
     str[strcspn(str, "\n")] = '\0';
     int l = strlen(str);
     int k=0,f=0,m=0;
+    if(isspace(str)){
+        printf("0");
+        return 0;
+    }
     for(int i=0;i<l;i++){
         if(isspace(str[i])){
             continue;
