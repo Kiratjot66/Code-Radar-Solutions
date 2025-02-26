@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 int main(){
     char str1[1000],str2[1000],str[1000];
     fgets(str1,sizeof(str1),stdin);
