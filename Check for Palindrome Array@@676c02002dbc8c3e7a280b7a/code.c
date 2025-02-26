@@ -15,6 +15,7 @@ int main(){
     for(int l=0;l<n;l++){
         if(b[l]!=c[l]){
             printf("N0");
+            break;
         }
         else{
             v++;
