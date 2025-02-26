@@ -25,7 +25,7 @@ int main() {
     }
     for(int c=0;c<N;c++){
         if(arr[c]!=f){
-            ar[c]=arr[j];
+            ar[c]=arr[c];
         }
     }
     int a=ar[0];
