@@ -14,7 +14,7 @@ int main(){
             }
         }
         if(l>n/2){
-           c=a[i]; 
+           c=a[j]; 
         }
     }
     printf("%d",c);
