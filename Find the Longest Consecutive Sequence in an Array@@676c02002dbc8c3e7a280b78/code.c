@@ -31,5 +31,5 @@ int main(){
         }
         
     }
-    printf("%d",)
+    printf("%d",c);
 }
