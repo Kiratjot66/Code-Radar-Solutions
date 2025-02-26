@@ -23,13 +23,15 @@ int main() {
           f=arr[j];
         }
     }
+    int q=0;
     for(int c=0;c<N;c++){
         if(arr[c]!=f){
-            ar[c]=arr[c];
+            ar[q]=arr[c];
+            q++;
         }
     }
     int a=ar[0];
-    for(int k=1;k<N;k++){
+    for(int k=1;k<q;k++){
         if(ar[k]>a){
             a=ar[k];
         }
