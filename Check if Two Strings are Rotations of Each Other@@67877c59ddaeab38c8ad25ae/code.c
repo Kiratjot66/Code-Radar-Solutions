@@ -6,7 +6,7 @@ int main(){
     fgets(str2,sizeof(str2),stdin);
     int a= sizeof(str1);
     for(int i=a-1;i>=0;i--){
-        char temp[2] = {str[i], '\0'};
+        char temp[2] = {str1[i], '\0'};
         strcat(str,temp);
     }
     if(strcmp(str,str2)){
