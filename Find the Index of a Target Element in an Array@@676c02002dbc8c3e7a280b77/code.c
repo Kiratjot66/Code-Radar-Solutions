@@ -6,13 +6,20 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int t,a;
+    int t,a,g=0;
     scanf("%d",&t);
     for(int j=0;j<n;j++){
         if(arr[j]==t){
             a=j;
+            g++;
             break;
         }
+
     }
-    printf("%d",a);
+    if(g==0){
+        printf("-1");
+    }
+    else{
+        printf("%d",a);
+    }
 }
