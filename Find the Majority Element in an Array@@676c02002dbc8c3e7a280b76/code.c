@@ -13,7 +13,7 @@ int main(){
                 l++;
             }
         }
-        if(k>n/2){
+        if(l>n/2){
            c=a[i]; 
         }
     }
