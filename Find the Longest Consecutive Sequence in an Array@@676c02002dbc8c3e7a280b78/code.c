@@ -10,7 +10,7 @@ int main(){
             arr[j]=arr[j+1];
         }
     }
-    int l=0
+    int l=0,c=0,b=0;
     for(int k=0;k<n;k++){
         a=arr[l];
         for(int g=1;g<N;g++){
