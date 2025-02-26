@@ -7,21 +7,16 @@ int main() {
         scanf("%d",&arr[i]);
     }
     int f=arr[0];
-    int s=-1;
     for(int j=0;j<N;j++){
         if(arr[j]>f){
-          s=f;
           f=arr[j];
         }
-        else if(arr[j]>s && arr[j]!=f){
-          s=arr[j];
+    }
+    int a=arr[0];
+    for(int k=0;k<N;k++){
+        if(arr[k]>a && arr[k]!=f){
+            a=arr[k];
         }
     }
-    if(s==-1){
-        printf("-1");
-    }
-    else{
-      printf("%d",s);
-      return 0;
-    }
+    printf("%d",a);
 }
