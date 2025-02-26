@@ -5,7 +5,7 @@ int main(){
     fgets(str2,sideof(str2),stdin);
     int a= sizeof(str1);
     for(int i=a-1;i>=0;i--){
-        strcat(str,str1[a]);
+        strcat(str,str1[i]);
     }
     if(strcmp(str,str2)){
         printf("Yes");
