@@ -8,6 +8,9 @@ int main() {
         scanf("%d ",&arr[i]);
     }
     scanf("%d",&k);
+    if(k>N){
+        k=k-N;
+    }
     for(int j=N-k;j<N;j++){
         printf("%d ",arr[j]);
     }
