@@ -14,13 +14,13 @@ int main(){
     }
     for(int l=0;l<n;l++){
         if(b[l]!=c[l]){
-            printf("No");
+            printf("N0");
         }
         else{
             v++;
         }
     }
     if(v>0){
-        printf("Yes");
+        printf("YES");
     }
 }
