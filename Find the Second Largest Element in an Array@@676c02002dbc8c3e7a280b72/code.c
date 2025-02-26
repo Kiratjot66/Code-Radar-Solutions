@@ -2,7 +2,7 @@
 int main() {
     int N;
     scanf("%d",&N);
-    int arr[N];
+    int arr[N],ar[N];
     for(int i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
@@ -23,10 +23,15 @@ int main() {
           f=arr[j];
         }
     }
-    int a=arr[0];
+    for(int c=0;c<N;c++){
+        if(arr[c]!=f){
+            ar[c]=arr[j];
+        }
+    }
+    int a=ar[0];
     for(int k=1;k<N;k++){
-        if(arr[k]>a && arr[k]!=f){
-            a=arr[k];
+        if(ar[k]>a){
+            a=ar[k];
         }
     }
     printf("%d",a);
