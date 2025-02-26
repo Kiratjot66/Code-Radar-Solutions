@@ -10,11 +10,9 @@ int main() {
     scanf("%d",&k);
     for(int j=N-k;j<N;j++){
         printf("%d ",arr[j]);
-        printf("\n");
     }
     for(int l=0;l<N-k;l++){
         printf("%d ",arr[l]);
-        printf("\n");
     }
     return 0;
 }
