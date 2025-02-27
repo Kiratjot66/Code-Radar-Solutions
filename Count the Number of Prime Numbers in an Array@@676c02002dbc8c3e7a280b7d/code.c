@@ -8,20 +8,20 @@ int main(){
     }
     for(int i=0;i<n;i++){
         p=a[i];
+        ad=0
         if(p<2){
-            d++;
+            continue;
         }
-        else if(p>2){
-        for (int j = 2; j < p; j++) {
-            ad=0; 
+        for (int j = 2; j < p; j++) { 
             if (p% j == 0) {
                 ad++;
+                break;
                 }
         }
         if(ad==0){
             bd++;
         }
-        }
+    
     }
     printf("%d",bd);
 }
