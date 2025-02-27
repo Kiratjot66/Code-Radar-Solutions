@@ -14,7 +14,7 @@ int main(){
         }
         if(b>=d){
             printf("%d",b);
-            return 0;
+
         }
     }
 }
