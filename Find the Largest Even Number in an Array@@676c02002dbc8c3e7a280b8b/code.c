@@ -13,13 +13,17 @@ int main(){
        f++;
     }
   }
-  int h=sizeof(b);
-  int t=b[0];
-  for(int i=0;i<h;i++){
-      if(b[i]>t){
-        t=b[i];
+  if(f>0){
+      int t=b[0];
+      for(int i=1;i<f;i++){
+        if(b[i]>t){
+            t=b[i];
+        }
       }
+    printf("%d",t);
+    }
+  else{
+      printf("-1");
   }
-  printf("%d",t);
 
 }
