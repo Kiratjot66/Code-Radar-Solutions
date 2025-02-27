@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int n,p,d,ad=0,bd=0;
+    int n,p,d,ad,bd=0;
     scanf("%d",&n);
     int a[n];
     for(int i=0;i<n;i++){
@@ -11,8 +11,9 @@ int main(){
         if(p<2){
             d++;
         }
-        else if{
-        for (int j = 2; j < p; j++) { 
+        else if(p>2){
+        for (int j = 2; j < p; j++) {
+            ad=0; 
             if (p% j == 0) {
                 ad++;
                 }
