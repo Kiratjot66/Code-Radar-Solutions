@@ -8,7 +8,7 @@ int main(){
     }
     for(int i=0;i<n;i++){
         int d=a[i];
-        r=0
+        r=0;
         while(d>0){
             f=d%10;
             r=r+f;
