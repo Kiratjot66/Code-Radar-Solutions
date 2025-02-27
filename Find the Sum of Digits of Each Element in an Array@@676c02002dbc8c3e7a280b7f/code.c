@@ -8,6 +8,9 @@ int main(){
     }
     for(int i=0;i<n;i++){
         int d=a[i];
+        if(d<0){
+            d=-d;
+        }
         r=0;
         while(d>0){
             f=d%10;
