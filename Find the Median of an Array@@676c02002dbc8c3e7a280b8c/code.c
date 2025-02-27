@@ -12,6 +12,6 @@ int main(){
     }
     else{
         int b=n/2;
-        printf("%d",a[b+1]);
+        printf("%d",a[b]);
     }
 }
