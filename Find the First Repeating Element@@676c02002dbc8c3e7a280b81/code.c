@@ -12,7 +12,7 @@ int main(){
             if(b==a[j]){
                 printf("%d",a[j]);
                 h++;
-                break;
+                return 0;
             }
         }
     }
