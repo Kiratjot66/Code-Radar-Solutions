@@ -18,9 +18,9 @@ int main(){
                 ad++;
                 }
         }
-        }
         if(ad==0){
             bd++;
+        }
         }
     }
     printf("%d",bd);
