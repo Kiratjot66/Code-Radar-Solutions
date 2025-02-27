@@ -8,7 +8,7 @@ int main(){
     }
     if(n%2==0){
         int b=n%2;
-        printf("%d",a[b-1]+a[b]);
+        printf("%d",(a[b-1]+a[b])/2);
     }
     else{
         int b=n%2;
