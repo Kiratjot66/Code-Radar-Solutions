@@ -12,8 +12,8 @@ int main(){
             d++;
         }
         else if{
-        for (int i = 2; i < p; i++) { 
-            if (p% i == 0) {
+        for (int j = 2; j < p; j++) { 
+            if (p% j == 0) {
                 ad++;
                 }
         }
