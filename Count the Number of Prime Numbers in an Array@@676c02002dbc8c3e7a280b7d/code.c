@@ -8,7 +8,7 @@ int main(){
     }
     for(int i=0;i<n;i++){
         p=a[i];
-        ad=0
+        ad=0;
         if(p<2){
             continue;
         }
