@@ -10,7 +10,7 @@ int main(){
         int b=a[i];
         int d=0;
         for(int j=i+1;j<n;j++){
-            d=d+arr[i];
+            d=d+a[i];
         }
         if(b>=d){
             printf("%d",b);
