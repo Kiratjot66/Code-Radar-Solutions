@@ -13,7 +13,7 @@ int main(){
                 d++;
                 c=a;
             }
-            if(f>d){
+            if(d>f){
                 f=d;
                 d=0;
                 h=c;
