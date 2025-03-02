@@ -18,6 +18,9 @@ int main(){
                 d=0;
                 h=c;
             }
+            else if(d==f){
+                h=d>f? f : d;
+            }
         }
     }
     printf("%d",h);
