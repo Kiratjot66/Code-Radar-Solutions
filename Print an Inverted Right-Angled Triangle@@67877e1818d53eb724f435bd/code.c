@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int n,i,j;
+    int n,j;
     scanf("%d",&n);
     int c=(n*(n-1)/2);
     for(int i=1;i<=c;i++){
