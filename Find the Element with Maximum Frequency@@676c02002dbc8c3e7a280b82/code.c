@@ -8,8 +8,8 @@ int main(){
     }
     for(int i=0;i<n;i++){
         int a=arr[i];
+        d=0;
         for(int j=i+1;j<n;j++){
-            d=0;
             if(a==arr[j]){
                 d++;
                 c=a;
