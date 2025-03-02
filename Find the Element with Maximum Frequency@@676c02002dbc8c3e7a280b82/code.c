@@ -17,6 +17,7 @@ int main(){
             if(d>f){
                 f=d;
                 h=c;
+                s=1;
             }
             else if(d==f){
                 h= d>f ? h : c;
@@ -24,7 +25,7 @@ int main(){
             }
         }
     }
-    if(s==n/2){
+    if(s>1){
         printf("1");
     }
     else{
