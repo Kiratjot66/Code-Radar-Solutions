@@ -25,7 +25,7 @@ int main(){
             }
         }
     }
-    if(s>1){
+    if(s>2){
         printf("1");
     }
     else{
