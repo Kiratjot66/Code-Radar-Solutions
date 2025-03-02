@@ -9,13 +9,13 @@ int main(){
     for(int i=0;i<n;i++){
         int a=arr[i];
         for(int j=i+1;j<n;j++){
+            d=0;
             if(a==arr[j]){
                 d++;
                 c=a;
             }
             if(d>f){
                 f=d;
-                d=0;
                 h=c;
             }
             else if(d==f){
