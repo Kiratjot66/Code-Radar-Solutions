@@ -21,7 +21,7 @@ int main() {
     }
     int diff=arr[1]-arr[0];
     int n1=arr[0],n2=arr[1];
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n-1;i++){
         int di=arr[i+1]-arr[i];
         if(di<diff){
             diff=di;
