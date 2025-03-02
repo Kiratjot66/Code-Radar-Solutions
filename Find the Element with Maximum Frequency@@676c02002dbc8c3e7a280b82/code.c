@@ -15,6 +15,7 @@ int main(){
             }
             if(f>d){
                 f=d;
+                d=0;
                 h=c;
             }
         }
