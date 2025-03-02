@@ -9,7 +9,7 @@ int main(){
     for(int i=0;i<n;i++){
         int a=arr[i];
         for(int j=i+1;j<n;j++){
-            if(a==a[j]){
+            if(a==arr[j]){
                 d++;
                 c=a;
             }
