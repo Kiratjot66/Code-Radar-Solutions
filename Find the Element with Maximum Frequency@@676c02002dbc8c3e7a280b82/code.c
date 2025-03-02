@@ -24,7 +24,7 @@ int main(){
             }
         }
     }
-    if(s==(n/2)){
+    if(s==n/2){
         printf("1");
     }
     else{
