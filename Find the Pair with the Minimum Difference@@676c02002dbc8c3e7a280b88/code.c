@@ -1,40 +1,33 @@
 #include <stdio.h>
 int main() {
-    int N;
-    scanf("%d",&N);
-    int arr[N],ar[N];
-    for(int i=0;i<N;i++){
+    int n;
+    scanf("%d",&n);
+    int arr[n];
+    for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int b=0;
-    int g=arr[0];
-    for(int p=0;p<N;p++){
-        if(arr[p]==g){
-          b++;
+    int t;
+    for(int i=0;i<n-1;i++){
+        for(int j=0;j<n-i-1;j++){
+            if(arr[j]>arr[j+1]){
+                t=arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1]=t;
+            }
         }
     }
-    if(b==N){
-        printf("-1");
-        return 0;
+    for(int i=0;i<n;i++){
+        printf("%d",arr[i]);
     }
-    int f=arr[0];
-    for(int j=0;j<N;j++){
-        if(arr[j]>f){
-          f=arr[j];
+    int diff=arr[1]-arr[0];
+    int n1=arr[0],n2=arr[1];
+    for(int i=0;i<n;i++){
+        int di=arr[i+1]-arr[i];
+        if(di<diff){
+            diff=di;
+            n1=arr[i];
+            n2=arr[i+1];
         }
     }
-    int q=0;
-    for(int c=0;c<N;c++){
-        if(arr[c]!=f){
-            ar[q]=arr[c];
-            q++;
-        }
-    }
-    int a=ar[0];
-    for(int k=1;k<q;k++){
-        if(ar[k]>a){
-            a=ar[k];
-        }
-    }
-    printf("%d %d",a,f);
+    printf("%d %d",n1,n2);
 }
