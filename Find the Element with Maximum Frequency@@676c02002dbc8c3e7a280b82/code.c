@@ -19,7 +19,7 @@ int main(){
                 h=c;
             }
             else if(d==f){
-                h= d>f ? f : d;
+                h= d>f ? h : c;
             }
         }
     }
