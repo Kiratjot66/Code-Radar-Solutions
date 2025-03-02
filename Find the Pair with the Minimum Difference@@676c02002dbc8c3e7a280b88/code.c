@@ -36,5 +36,5 @@ int main() {
             a=ar[k];
         }
     }
-    printf("%d",f-a);
+    printf("%d %d",a,f);
 }
