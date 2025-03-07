@@ -13,6 +13,7 @@ int main(){
             if(a==arr[j]){
                 d++;
                 c=a;
+                h=c;
             }
             if(d>f){
                 f=d;
