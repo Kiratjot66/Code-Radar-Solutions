@@ -10,5 +10,8 @@ int main(){
         if(d=='a'||d=='e'||d=='i'||d=='o'||d=='u'){
             printf("%c",a[i]);
         }
+        if(isspace(a[i])){
+            printf(" ");
+        }
     }
 }
