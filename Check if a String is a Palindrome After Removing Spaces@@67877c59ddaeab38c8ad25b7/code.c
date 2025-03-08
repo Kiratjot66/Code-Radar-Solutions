@@ -9,9 +9,9 @@ int main(){
     b[strcspn(b, "\n")] = '\0';
     int l=strlen(a);
     for(int i=l-1;i>0;i--){
-       strcat(b,a[i]);
+       b[l]=a[i];
     }
-    if(strcmp(a,b)){
+    if(strcmp(a,b)==0){
         printf("Yes");
     }
     else{
