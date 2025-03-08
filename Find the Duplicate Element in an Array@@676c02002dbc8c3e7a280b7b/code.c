@@ -7,14 +7,12 @@ int main(){
         scanf("%d",&a[i]);
     }
     int c=0,d;
-    for(int i=1;i<n;i++){
-       d=a[c];
-       if(a[i]==d){
-        printf("d");
-        return 0;
-       }
-       else{
-        c++;
+    for(int i=0;i<n;i++){
+       for(int j=1;j<n;j++){
+        if(a[i]==a[j]){
+            printf("%d",a[i]);
+            return 0;
+        }
        }
     }
 }
