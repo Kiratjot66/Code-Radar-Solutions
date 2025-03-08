@@ -8,7 +8,7 @@ int main(){
     }
     int k,m=0;
     scanf("%d",&k);
-    for(int l=0;l<n;l++){
+    for(int l=0;l<n-1;l++){
         if(a[l]==a[l+1]){
           m++;
         }
