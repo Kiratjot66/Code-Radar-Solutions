@@ -17,8 +17,8 @@ int main(){
                 f=d;
                 h=a;
             }
-            else if(d==f){
-                h= d>f ? h : c;
+            else if(d==f && a<h){
+                h= a;
             }
         }
     }
