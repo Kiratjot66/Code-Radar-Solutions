@@ -11,6 +11,7 @@ int main(){
     for(int i=l-1;i>0;i--){
        b[l]=a[i];
     }
+    b[strlen(b)] = '\0';
     if(strcmp(a,b)==0){
         printf("Yes");
     }
