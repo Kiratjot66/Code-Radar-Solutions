@@ -13,7 +13,7 @@ int main(){
           m++;
         }
     }
-    if(m==n && a[0]+a[1]==k){
+    if(m==n && (a[0]+a[1])==k){
         printf("%d %d",a[0],a[1]);
         return 0;
     }
