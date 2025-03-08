@@ -9,6 +9,10 @@ int main(){
     b[strcspn(b, "\n")] = '\0';
     int l=strlen(a);
     int j=0;
+    if(ispace(a) ||!isalpha(a)){
+        printf("No");
+        return 0;
+    }
     for(int i=l-1;i>=0;i--){
        b[j]=a[i];
        j++;
