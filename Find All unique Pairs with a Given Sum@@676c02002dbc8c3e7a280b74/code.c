@@ -14,7 +14,6 @@ int main(){
               if(a[i]+a[j]==k){
                 if(m!=0){
                   printf("%d %d",a[i],a[j]);
-                  printf("\n");
                   m=1;
                 }
               }
