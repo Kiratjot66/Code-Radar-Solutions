@@ -8,11 +8,10 @@ int main(){
     }
     int c=0,d;
     for(int i=0;i<n;i++){
-       for(int j=1;j<n;j++){
-        if(a[i]==a[j]){
+
+        if(a[i]==a[i+1]){
             printf("%d",a[i]);
             return 0;
-        }
        }
     }
 }
