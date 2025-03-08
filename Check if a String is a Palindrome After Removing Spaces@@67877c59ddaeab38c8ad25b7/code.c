@@ -13,7 +13,7 @@ int main(){
        b[j]=a[i];
        j++;
     }
-    b[strlen(b)] = '\0';
+    b[j] = '\0';
     if(strcmp(a,b)==0){
         printf("Yes");
     }
