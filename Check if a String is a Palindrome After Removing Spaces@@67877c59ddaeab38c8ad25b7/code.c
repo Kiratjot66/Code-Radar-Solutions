@@ -8,7 +8,7 @@ int main(){
     a[strcspn(a, "\n")] = '\0';
     b[strcspn(b, "\n")] = '\0';
     int l=strlen(a);
-    for(int i=l-1;i>0;i--){
+    for(int i=l-1;i>=0;i--){
        b[l]=a[i];
     }
     b[strlen(b)] = '\0';
