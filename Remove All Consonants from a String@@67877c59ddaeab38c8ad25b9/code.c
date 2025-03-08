@@ -10,7 +10,10 @@ int main(){
         if(d=='a'||d=='e'||d=='i'||d=='o'||d=='u'){
             printf("%c",a[i]);
         }
-        if(isspace(a[i])){
+        else if(!isalpha(a[i])){
+            printf("%c",a[i])
+        }
+        else if(isspace(a[i])){
             printf(" ");
         }
     }
