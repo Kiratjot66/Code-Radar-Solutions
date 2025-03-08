@@ -9,7 +9,7 @@ int main(){
     b[strcspn(b, "\n")] = '\0';
     int l=strlen(a);
     int j=0;
-    if(ispace(a) ||!isalpha(a)){
+    if(ispace(a)){
         printf("No");
         return 0;
     }
