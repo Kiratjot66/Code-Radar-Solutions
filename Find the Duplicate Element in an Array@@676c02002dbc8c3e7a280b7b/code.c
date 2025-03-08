@@ -6,7 +6,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
-    c=0;
+    int c=0;
     for(int i=1;i<n;i++){
        d=a[c];
        if(a[i]==d){
