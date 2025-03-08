@@ -6,7 +6,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
-    int f,k=1,h,p=0;
+    int f,k=0,h,p=0;
     for(int i=0;i<n;i++){
         int b=a[i];
         b=h;
