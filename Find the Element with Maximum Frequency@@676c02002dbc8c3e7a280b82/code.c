@@ -12,17 +12,13 @@ int main(){
         for(int j=i+1;j<n;j++){
             if(a==arr[j]){
                 d++;
-                c=a;
-                h=c;
             }
             if(d>f){
                 f=d;
-                h=c;
-                s=1;
+                h=a;
             }
             else if(d==f){
                 h= d>f ? h : c;
-                s++;
             }
         }
     }
