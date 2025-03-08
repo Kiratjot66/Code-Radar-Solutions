@@ -5,7 +5,7 @@ int main(){
     int b=sizeof(a);
     for(int i=0;i<b;i++){
         char d=tolower(a[i]);
-        if(a[i]=='a'||a[i]=='e'|a[i]=='i'||a[i]=='o'||a[i]=='u'){
+        if(d=='a'||d=='e'||d=='i'||d=='o'||d=='u'){
             printf("%c",a[i]);
         }
     }
