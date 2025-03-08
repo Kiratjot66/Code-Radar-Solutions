@@ -8,8 +8,10 @@ int main(){
     a[strcspn(a, "\n")] = '\0';
     b[strcspn(b, "\n")] = '\0';
     int l=strlen(a);
+    int j=0;
     for(int i=l-1;i>=0;i--){
-       b[l]=a[i];
+       b[j]=a[i];
+       j++;
     }
     b[strlen(b)] = '\0';
     if(strcmp(a,b)==0){
