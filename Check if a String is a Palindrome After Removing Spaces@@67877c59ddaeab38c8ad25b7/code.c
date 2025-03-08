@@ -12,7 +12,7 @@ int main(){
        j++;
     }
     b[j] = '\0';
-    if(strcmp(a,b)){
+    if(strcmp(a,b==0)){
         printf("Yes");
     }
     else{
