@@ -11,7 +11,7 @@ int main(){
             printf("%c",a[i]);
         }
         else if(!isalpha(a[i])){
-            printf("%c",a[i])
+            printf("%c",a[i]);
         }
         else if(isspace(a[i])){
             printf(" ");
