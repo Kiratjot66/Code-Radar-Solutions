@@ -14,7 +14,7 @@ int main(){
        j++;
     }
     b[j] = '\0';
-    if(strcmp(a,b)==0){
+    if(strcmp(a,b)){
         printf("Yes");
     }
     else{
