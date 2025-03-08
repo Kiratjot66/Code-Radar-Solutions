@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    str a[1000];
+    char a[1000];
     fgets(a,1000,stdin);
     int b=strlen(str);
     for(int i=0;i<b;i++){
