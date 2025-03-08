@@ -12,7 +12,7 @@ int main(){
         b=h;
         while(b>0){
             f=b%10;
-            k=k*10+f;
+            k=f*10+k;
             b=b/10;
         }
         if(k==h){
