@@ -15,7 +15,7 @@ int main(){
                 if(m!=0){
                   printf("%d %d",a[i],a[j]);
                   printf("\n");
-                  m++;
+                  m=1;
                 }
               }
         }
