@@ -7,8 +7,9 @@ int main(){
     int l=strlen(a);
     for(int i=0;i<l;i++){
         int d=0;
+        int m;
         for(int j=i+1;j<l;j++){
-          int m=0;
+          m=0;
           if(a[i]==a[j]){
              m++;
              d++;
