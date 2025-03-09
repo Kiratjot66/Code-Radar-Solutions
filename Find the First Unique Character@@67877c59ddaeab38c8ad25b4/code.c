@@ -5,8 +5,9 @@ int main(){
     char a[1000];
     fgets(a,sizeof(a),stdin);
     int l=strlen(a);
+    int d;
     for(int i=0;i<l;i++){
-        int d=0;
+        d=0;
         int m;
         for(int j=i+1;j<l;j++){
           m=0;
