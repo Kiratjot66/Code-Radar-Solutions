@@ -8,21 +8,18 @@ int main(){
     int d;
     for(int i=0;i<l;i++){
         d=0;
-        int m;
-        for(int j=i+1;j<l;j++){
-          m=0;
+        for(int j=0;j<l;j++){
           if(a[i]==a[j]){
-             m++;
              d++;
           } 
         } 
-        if(m==0){
+        if(m==1){
             printf("%c",a[i]);
             return 0;
         }
     }
-    if(d!=0){
-        printf("-");
+    printf("-");
+    return 0;
     }
         
 }
