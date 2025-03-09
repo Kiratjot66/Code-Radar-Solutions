@@ -13,7 +13,7 @@ int main(){
              d++;
           } 
         } 
-        if(m==1){
+        if(d==1){
             printf("%c",a[i]);
             return 0;
         }
