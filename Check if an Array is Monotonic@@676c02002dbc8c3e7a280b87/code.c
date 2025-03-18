@@ -18,7 +18,7 @@ int main(){
         }
     }
     if((an>0)||b>0){
-       ptintf("YES");
+       printf("YES");
     }
     else{
         printf("NO");
