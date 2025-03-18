@@ -7,20 +7,20 @@ int main(){
         scanf("%d",&a[i]);
     }
     int an=0,b=0;
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n-1;i++){
         if(!(a[i]>=a[i+1])){
-            an++;
+           an=0;
         }
     }
-    for(int i=0;i<n;i++){
-        if(!(a[i]<=a[i+1])){
-            b++;
+    for(int i=0;i<n-1;i++){
+        if((a[i]<=a[i+1])){
+            b=0;
         }
     }
-    if((an>0)||b>0){
-       printf("NO");
+    if((b==0)||(an==0)){
+       printf("YES");
     }
     else{
-        printf("YES");
+        printf("NO");
     }
 }
