@@ -11,8 +11,9 @@ int main(){
         c=c+a[j];
        }
        b[i]=c;
+       c=0;
     }
-    c=0;
+
     b[0]=a[0];
     for(int i=0;i<n;i++){
         printf("%d ",b[i]);
