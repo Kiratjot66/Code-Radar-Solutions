@@ -2,14 +2,14 @@
 int main(){
     int n;
     scanf("%d",&n);
-    int arr[n];
+    int a[n];
     for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
+        scanf("%d",&a[i]);
     }
-    int a=0,b=0;
+    int an=0,b=0;
     for(int i=0;i<n;i++){
         if(!(a[i]>=a[i+1])){
-            a++;
+            an++;
         }
     }
     for(int i=0;i<n;i++){
@@ -17,7 +17,7 @@ int main(){
             b++;
         }
     }
-    if((a>0)||b>0){
+    if((an>0)||b>0){
        ptintf("YES");
     }
     else{
