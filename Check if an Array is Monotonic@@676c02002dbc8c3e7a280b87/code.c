@@ -13,6 +13,7 @@ int main(){
         }
         else{
             an=1;
+            break;
         }
     }
     for(int i=0;i<n-1;i++){
@@ -21,6 +22,7 @@ int main(){
         }
         else{
             b=1;
+            break;
         }
     }
     if((b==0)||(an==0)){
