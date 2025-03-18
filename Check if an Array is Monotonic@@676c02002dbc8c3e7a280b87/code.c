@@ -13,7 +13,8 @@ int main(){
         }
         else{
             an=1;
-            break;
+            printf("NO");
+            return 0;
         }
     }
     for(int i=0;i<n-1;i++){
@@ -22,13 +23,10 @@ int main(){
         }
         else{
             b=1;
-            break;
+            printf("NO");
+            return 0;
         }
     }
-    if((b==0)||(an==0)){
-       printf("YES");
-    }
-    else{
-        printf("NO");
-    }
+    printf("YES");
+    return 0;
 }
