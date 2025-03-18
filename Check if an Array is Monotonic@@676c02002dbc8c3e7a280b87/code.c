@@ -18,9 +18,9 @@ int main(){
         }
     }
     if((an>0)||b>0){
-       printf("YES");
+       printf("NO");
     }
     else{
-        printf("NO");
+        printf("YES");
     }
 }
