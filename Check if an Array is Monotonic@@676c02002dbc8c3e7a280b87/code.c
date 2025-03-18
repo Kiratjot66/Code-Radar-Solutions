@@ -11,10 +11,16 @@ int main(){
         if(!(a[i]>=a[i+1])){
            an=0;
         }
+        else{
+            an=1;
+        }
     }
     for(int i=0;i<n-1;i++){
         if((a[i]<=a[i+1])){
             b=0;
+        }
+        else{
+            b=1;
         }
     }
     if((b==0)||(an==0)){
