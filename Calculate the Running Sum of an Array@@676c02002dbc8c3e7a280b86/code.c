@@ -2,7 +2,7 @@
 int main(){
     int n,c=0;
     scanf("%d",&n);
-    int a[n];
+    int a[n],b[n];
     for(int i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
@@ -10,9 +10,10 @@ int main(){
        for(int j=0;j<=i;j++){
         c=c+a[j];
        }
-       a[i]=c;
+       b[i]=c;
     }
+    b[0]=a[0];
     for(int i=0;i<n;i++){
-        printf("%d ",a[i]);
+        printf("%d ",b[i]);
     }
 }
