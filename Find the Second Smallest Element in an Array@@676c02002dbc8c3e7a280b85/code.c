@@ -9,9 +9,9 @@ int main(){
     int l=a[0];
     int s=-1;
     for(int i=1;i<n;i++){
-        if(l>a[i+1]){
+        if(l>a[i]){
             s=l;
-            l=a[i];
+            l=a[i+1];
         }
         else if(a[i]>l &&(a[i]<s)){
             s=a[i];
