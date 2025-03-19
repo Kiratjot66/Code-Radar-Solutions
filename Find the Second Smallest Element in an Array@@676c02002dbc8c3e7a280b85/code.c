@@ -11,7 +11,7 @@ int main(){
     for(int i=1;i<n;i++){
         if(l>a[i]){
             s=l;
-            l=a[i+1];
+            l=a[i];
         }
         else if(a[i]>l &&(a[i]<s)){
             s=a[i];
