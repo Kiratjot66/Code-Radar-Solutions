@@ -10,7 +10,7 @@ int main(){
     int s=-1;
     for(int i=n;i>1;i--){
         if(l>a[i]){
-            s=l;
+            s=-l;
             l=a[i];
         }
         else if(a[i]>l &&(a[i]<s)){
