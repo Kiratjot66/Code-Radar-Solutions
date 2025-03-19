@@ -13,7 +13,7 @@ int main(){
             s=l;
             l=a[i];
         }
-        else if(a[i]<s &&a[i]!=l){
+        else if(a[i]<s &&()a[i]<s || s==-1)){
             s=a[i];
         }
     }
