@@ -14,7 +14,7 @@ int main(){
             l=a[i];
         }
         else if(a[i]>l &&(a[i]<s)){
-            s=a[i+1];
+            s=a[1+i];
         }
     }
     printf("%d",s);
