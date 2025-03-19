@@ -1,21 +1,18 @@
-#include <stdio.h>
-int main(){
-    int n;
-    scanf("%d",&n);
-    int a[n];
-    for(int i=0;i<n;++i){
-        scanf("%d",&a[i]);
-    }
-    int l=a[0];
-    int s=-1;
-    for(int i=1;i<n;++i){
-        if(l>a[i]){
-            s=l;
-            l=a[i];
-        }
-        else if(a[i]>l &&(a[i]<s)){
-            s=a[i];
-        }
-    }
-    printf("%d",s);
+// C++ simple approach to print smallest
+// and second smallest element.
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int arr[] = { 111, 13, 25, 9, 34, 1};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    // sorting the array using
+    // in-built sort function
+    sort(arr, arr + n);
+    // printing the desired element
+    cout << "smallest element is " << arr[0] << endl;
+    cout << "second smallest element is " << arr[1];
+    return 0;
 }
+
+// this code is contributed by Machhaliya Muhammad
