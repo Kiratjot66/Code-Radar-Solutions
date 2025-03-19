@@ -8,7 +8,7 @@ int main(){
     }
     int l=a[0];
     int s=-1;
-    for(int i=1;i<n;i++1){
+    for(int i=1;i<n;i++){
         if(l>a[i]){
             s=l;
             l=a[i];
